@@ -1,6 +1,6 @@
 # Building a ''*myTravel*'' Mobile App with Oracle Visual Builder Cloud Service
 
-이 실습에서는 현재 스프레드시트로 처리된 출장 결재 요청 프로세스를 자동화하는 어플리케이션을 생성할 것입니다. 그리고 또한 public REST 서비스 호출 및 그 결과를 어플리케이션에 반영할 것입니다.
+이 실습에서는 현재 스프레드시트로 처리된 출장 결재 요청 프로세스를 자동화하는 어플리케이션을 생성할 것입니다. 그리고 또한 REST 서비스 호출 및 그 결과를 어플리케이션에 반영할 것입니다.
 
 
 ![alt text](../resources/images/myTravel1.jpeg "Logo Title Text 1") ![alt text](../resources/images/MyTravel2.jpeg "Logo Title Text 1")
