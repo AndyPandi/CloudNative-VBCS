@@ -1,7 +1,7 @@
 # Cafe Supremo Demo HR Application
 
 ## The Cafe Supremo HR Demo App
-The following pictures shows a sample of the Demo Application.
+아래 사진은 데모 어플리케이션 샘플이다.
 
 ![](resources/images/cf/dashboard.png) ![](resources/images/cf/manager.png)
 
