@@ -5,7 +5,7 @@
 
 ![](resources/images/cf/dashboard.png) ![](resources/images/cf/manager.png)
 
-## Demo Application Source
+## 데모 어플리케이션 소스
 + [Cafe Supremo 데모 어플리케이션 소스코드 다운로드](resources/materials/Cafe-Supremo-HR.zip)
 + [Cafe Supremo 스토리보드](resources/materials/Cafe-Supremo-VBCS-StoryBoard-Extension-v1.pdf)
 
