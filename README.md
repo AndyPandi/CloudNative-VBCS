@@ -16,12 +16,12 @@
 
 
 ### VBCS Demo Web Application
-This web application features a fictitious company Cafe Supremo, human resources portal. This portal has been fully build using Visual Builder. Below the story board and the source of the application. You can download and import into your own Visual Builder Cloud instance.
+이 웹 어플리케이션은 Cafe Supremo 라는 가상 회사의 인사자원 포탈 기능을 합니다. 이 포탈은 VBCS 로만 만들어졌습니다. 이 어플리케이션 스토리보드와 소스는 아래에 있습니다. 해당 소스를 다운로드 해서 각자의 VBCS 인스턴스에 임포트 할 수 있습니다. 
 
 + [Cafe Supremo Demo App](CF-Demo-App.md)
 
 ### Labs
-The following labs will run show you step by step how you can build a Mobile and Web Application in Oracle Visual Builder
-+ [Lab 1: Building a myTravel Mobile App with Visual Builder Cloud](MobileApp/MOB_PART_1.md)
-+ [Bonus Lab: My First Application (Web Application)](WebApp/MyFirstApp.md)
-+ [Bonus Lab: Setting up Developer Cloud for Visual Builder](DevCS/README.md)
+다음 실습에서는 Oracle VBCS 에서 모바일 및 웹 어플리케이션을 생성하는 방법을 단계별로 수행합니다.
++ [실습 1: Building a myTravel Mobile App with Visual Builder Cloud](MobileApp/MOB_PART_1.md)
++ [추가 실습: My First Application (Web Application)](WebApp/MyFirstApp.md)
++ [추가 실습: Setting up Developer Cloud for Visual Builder](DevCS/README.md)
