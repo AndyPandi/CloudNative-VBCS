@@ -1,6 +1,6 @@
 # Building a ''*myTravel*'' Mobile App with Oracle Visual Builder Cloud Service
 
-In this lab you’ll create an application that automates a process of approving travel requests that is currently done in spreadsheets. You will also call a public REST service and incorporate the results into your application.
+이 실습에서는 현재 스프레드시트로 처리된 출장 결재 요청 프로세스를 자동화하는 어플리케이션을 생성할 것입니다. 그리고 또한 public REST 서비스 호출 및 그 결과를 어플리케이션에 반영할 것입니다.
 
 
 ![alt text](../resources/images/myTravel1.jpeg "Logo Title Text 1") ![alt text](../resources/images/MyTravel2.jpeg "Logo Title Text 1")
