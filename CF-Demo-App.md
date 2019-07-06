@@ -6,8 +6,8 @@
 ![](resources/images/cf/dashboard.png) ![](resources/images/cf/manager.png)
 
 ## Demo Application Source
-+ [Download Cafe Supremo Demo App Source Code](resources/materials/Cafe-Supremo-HR.zip)
-+ [Cafe Supremo Story Board](resources/materials/Cafe-Supremo-VBCS-StoryBoard-Extension-v1.pdf)
++ [Cafe Supremo 데모 어플리케이션 소스코드 다운로드](resources/materials/Cafe-Supremo-HR.zip)
++ [Cafe Supremo 스토리보드](resources/materials/Cafe-Supremo-VBCS-StoryBoard-Extension-v1.pdf)
 
 ## Post application import steps
 
