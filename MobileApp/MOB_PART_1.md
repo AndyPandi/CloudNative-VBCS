@@ -30,7 +30,7 @@ Navigator의 왼쪽에 위치한 **`Business Objects`** 아이콘 클릭
 
 ![alt text](../resources/images/mob/3.png "Logo Title Text 1")  
 
-At the top of the navigator, click the **`Business Objects`** menu and select Data Manager. This provides short cuts when creating business objects
+Navigator 최상단에 있는 Business Objects **`Business Objects`** 메뉴버튼 클릭 후 Data Manager 메뉴를 클릭합니다. 이것은 Business Objects 생성하는 빠른 방법 .
 
 ![alt text](../resources/images/mob/4.png "Logo Title Text 1") 
  
