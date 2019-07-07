@@ -11,14 +11,14 @@
 
 **`New`** 버튼 클릭
 
-Provide a name for your application –  **`<YourName> Travel Approval`**
+어플리케이션의 이름을 입력하세요 –  **`<YourName> Travel Approval`**
  
 ![alt text](../resources/images/mob/2.png "Logo Title Text 1") 
 
-Click **`Finish`** to complete the creation of your application.
+**`Finish`** 버튼을 클릭하여 어플리케이션 생성을 완료하세요.
 
-> *You are now taken into the design environment where you’ll develop your application visually.*
-> *From here you can create mobile or web applications, connect to external REST services (Service Connections), integrate with other processes (Process Cloud) or you can create your own Business Objects.*
+> *이제 시각적으로 어플리케이션을 개발할 수 있는 환경이 되었습니다.*
+> *이제 시각적으로 어플리케이션을 개발할 수 있는 환경이 되었습니다. 지금부터 모바일 또는 웹 어플리케이션 생성, 외부 REST 서비스에 연결, 다른 프로세스와 통합하거나 자신만의 비즈니스 오브젝트를 생성할 수 있습니다.*
 
 ## 2. Create Business Objects
 
