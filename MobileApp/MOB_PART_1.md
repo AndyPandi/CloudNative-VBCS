@@ -9,7 +9,7 @@
 
 ## 1. Create a new Application
 
-Click the **`New`** button
+**`New`** 버튼 클릭
 
 Provide a name for your application –  **`<YourName> Travel Approval`**
  
