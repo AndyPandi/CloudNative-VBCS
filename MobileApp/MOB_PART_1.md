@@ -58,11 +58,11 @@ Business Object 의 상세한 내용을 확인하려면 **`TravelRequest`** 클�
 
 ![alt text](../resources/images/mob/8.png "Logo Title Text 1")  
 
-**`Finish`** 클릭으로 데이터 임포트를 완료하고 **`Close`** 를 클릭해서 끝내세요
+**`Finish`** 버튼을 클릭해서 데이터 임포트를 완료하시고 **`Close`** 를 클릭해서 창을 닫으십시오.
 
 > *Visual Builder creates the Business Object – it creates a table in the database, adds primary key (ID) and audit fields, imports the data from Excel into it and exposes a set of REST services that allow you to do the CRUD on that new business object*
 
-Now you can edit the Business Object
+이제 Business Object 를 수정할 수 있습니다.
 
 In the **Business Object navigator**, click on **`Travel Request`** to open it in the editor
 
