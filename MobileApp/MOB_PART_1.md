@@ -36,7 +36,7 @@ Navigator 최상단에 있는 Business Objects **`Business Objects`** 메뉴버�
  
 Business Object 스프레드시트(엑셀파일) 다운로드 : <a href="../resources/materials/newFlights.xlsx">Download</a>. 
 
-다운로드 후, **`Import Business Objects`** 버튼을 클릭으로 엑셀파일 데이터 Import
+다운로드 후, **`Import Business Objects`** 버튼을 클릭으로 엑셀파일 데이터 임포트
 
 ![alt text](../resources/images/mob/5.png "Logo Title Text 1")  
 
@@ -46,19 +46,19 @@ Import Business Objects wizard 내에서 **newFlights** 엑셀파일 업로드
 
 업로드가 완료되면 **`Next`** 버튼을 클릭
 
-Change the Name After Import and New Object ID from **TravelRequests** to **TravelRequest**
+임포트 후 새 Object ID를 **TravelRequests** 에서 **TravelRequest** 로 변경
 
 ![alt text](../resources/images/mob/7.png "Logo Title Text 1")  
 
-Click **`Next`**
+**`Next`** 클릭
 
-Click **`TravelRequest`** to see details of that Business Object
+Business Object 의 상세한 내용을 확인하려면 **`TravelRequest`** 클릭
 
-Change the **Type** of the field with the display label **Date** field from **DateTime** to **Date**
+**Date** 로 표시된 필드의 **Type** 을 **DateTime** 에서 **Date** 로 변경
 
 ![alt text](../resources/images/mob/8.png "Logo Title Text 1")  
 
-Click **`Finish`** to complete the data import and **`Close`** to finish
+**`Finish`** 클릭으로 데이터 임포트를 완료하고 **`Close`** 를 클릭해서 끝내세요
 
 > *Visual Builder creates the Business Object – it creates a table in the database, adds primary key (ID) and audit fields, imports the data from Excel into it and exposes a set of REST services that allow you to do the CRUD on that new business object*
 
