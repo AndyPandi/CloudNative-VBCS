@@ -34,9 +34,9 @@ Navigator 최상단에 있는 Business Objects **`Business Objects`** 메뉴버�
 
 ![alt text](../resources/images/mob/4.png "Logo Title Text 1") 
  
-Download the Business Object spreadsheet here: <a href="../resources/materials/newFlights.xlsx">Download</a>. 
+Business Object 스프레드시트(엑셀파일) 다운로드 : <a href="../resources/materials/newFlights.xlsx">Download</a>. 
 
-Once downloaded, Click on **`Import Business Objects`** to import data from a spreadsheet
+다운로드 후, **`Import Business Objects`** 버튼을 클릭해서 스프레드시트(엑셀파일)의 데이터를 임포트 합니다
 
 ![alt text](../resources/images/mob/5.png "Logo Title Text 1")  
 
