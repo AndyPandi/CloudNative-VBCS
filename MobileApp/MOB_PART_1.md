@@ -22,11 +22,11 @@
 
 ## 2. Create Business Objects
 
-> *You will create Business Objects to store data by importing an existing spreadsheet. You will then edit the Business Objects, adding fields and setting default values and creating a relationship between objects*
+> *기존에 존재하는 스프레드시트의 데이터를 저장할 Business Objects를 생성하세요. 그런 다음 Business Objects 수정, 필드추가 그리고 default 값을 설정하고 object간 관계를 생성하십시오.*
 
-Click on the **`Business Objects`** icon to the left of the navigator 
+Navigator의 왼쪽에 위치한 **`Business Objects`** 아이콘 클릭
 
-> Note that the Business Objects navigator opens in the left panel
+> Business Objects navigator 는 왼쪽 패널에서 열린다는 점을 유의하세요
 
 ![alt text](../resources/images/mob/3.png "Logo Title Text 1")  
 
