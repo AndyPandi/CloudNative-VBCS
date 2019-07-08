@@ -64,7 +64,7 @@ Business Object 의 상세한 내용을 확인하려면 **`TravelRequest`** 클�
 
 이제 Business Object 를 수정할 수 있습니다.
 
-**Business Object 네이게이터**에서 **`Travel Request`**버튼을 클릭해서 에디터를 연다.
+**Business Object 네이게이터**에서 **`Travel Request`** 버튼을 클릭해서 에디터를 연다.
 
 Click on the **`Fields`** tab
 
