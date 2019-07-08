@@ -34,7 +34,7 @@ Navigator 최상단에 있는 Business Objects **`Business Objects`** 메뉴버�
 
 ![alt text](../resources/images/mob/4.png "Logo Title Text 1") 
  
-Business Object 스프레드시트(엑셀파일) 다운로드 : <a href="../resources/materials/newFlights.xlsx">Download</a>. 
+Business Object 스프레드시트(엑셀파일) 다운로드 : <a href="../resources/materials/newFlights.xlsx">Download</a>
 
 다운로드 후, **`Import Business Objects`** 버튼을 클릭으로 엑셀파일 데이터 임포트
 
@@ -60,11 +60,11 @@ Business Object 의 상세한 내용을 확인하려면 **`TravelRequest`** 클�
 
 **`Finish`** 버튼을 클릭해서 데이터 임포트를 완료하시고 **`Close`** 를 클릭해서 창을 닫으십시오.
 
-> *Visual Builder creates the Business Object – it creates a table in the database, adds primary key (ID) and audit fields, imports the data from Excel into it and exposes a set of REST services that allow you to do the CRUD on that new business object*
+> *Visual Builder는 Business Object를 생성한다. (데이터베이스에 테이블을 생성, PK(ID)와 audit필드 추가, 엑셀의 데이터를 임포트해서 신규 Business Object 에 CRUD를 수행할 수 있는 REST 서비스 Set을 공개)*
 
 이제 Business Object 를 수정할 수 있습니다.
 
-In the **Business Object navigator**, click on **`Travel Request`** to open it in the editor
+**Business Object 네이게이터**에서 **`Travel Request`**버튼을 클릭해서 에디터를 연다.
 
 Click on the **`Fields`** tab
 
