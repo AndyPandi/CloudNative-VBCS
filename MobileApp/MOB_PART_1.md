@@ -133,8 +133,7 @@ Travel Request object에서 **`Average`** 를 function 으로 선택하고 **`Co
 
 **모바일 어플리케이션** 이름은 **`myTravel`** 으로 정함
 
-Keep the default **Navigation Style (Bottom Bar)** and name two **Navigation Items**: **`Requests and Statistics`** , delete the third navigation item and click the **`>`** button
-Default **Navigation Style** 은 Bottom Bar 로 선택하고 **Navigation Items** 는 Requests 와 Statistics를 입력하고 세번째 Items은 삭제한 뒤 **`>`**	버튼을 클릭합니다.
+**Navigation Style** 은 default값인 Bottom Bar로 선택하고 **Navigation Items** 항목은 Requests와 Statistics는 그대로 두고 세번째 Items은 삭제한 뒤 **`>`**	버튼을 클릭합니다.
 
 ![alt text](../resources/images/mob/20.png "Logo Title Text 1")
 
