@@ -109,10 +109,9 @@ Business Object 의 상세한 내용을 확인하려면 **`TravelRequest`** 클�
 
 ![alt text](../resources/images/mob/16.png "Logo Title Text 1") 
 
-[+ **`Edit Aggregation`** ] 버튼 클릭. See that the object to be aggregated has defaulted to **Travel Request, (using airline)**. 
-Select **`Total`** as the function and select **`Cost`** as the field to be totaled. 
+**`+Edit Aggregation`** 버튼 클릭. Object to Aggregate 가 **Travel Request (using airline)** 으로 되어 있는지 확인하세요. Aggregation Function 으로 **`Total`** 을 선택하고 Field to Aggregate 는 **`Cost`** 를 선택합니다.
 
-Click **`OK`**
+**`OK`** 버튼 클릭
 
 ![alt text](../resources/images/mob/17.png "Logo Title Text 1")
 
