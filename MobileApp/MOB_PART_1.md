@@ -66,33 +66,33 @@ Business Object 의 상세한 내용을 확인하려면 **`TravelRequest`** 클�
 
 **Business Object 네이게이터**에서 **`Travel Request`** 버튼을 클릭해서 에디터를 연다.
 
-Click on the **`Fields`** tab
+**`Fields`** 탭 클릭
 
-Click on **`+ New Field`** to add a new field to this business object
+**`+ New Field`** 버튼을 클릭해서 해당 Business Object 에 신규 필드를 추가합니다.
 
 ![alt text](../resources/images/mob/9.png "Logo Title Text 1") 
 
-Add a field called **Approved** of type **Boolean**
+**Boolean** 타입의 필드 **Approved** 를 추가합니다.
 
 ![alt text](../resources/images/mob/10.png "Logo Title Text 1") 
 
-With the **Approved** field highlighted, scroll down the **Property Palette** to the **Value Calculation** section. Set the **Set to default if value not provided** of the **Approved** field to **false**
+**Approved** 필드가 선택된 상태에서, **Value Calculation** 섹션까지 **Property Palette** 스크롤을 내립니다. **Approved** 필드의 **Set to default if value not provided** 값을 **false** 상태로 설정합니다.
 
 ![alt text](../resources/images/mob/11.png "Logo Title Text 1") 
 
-Click on the **`Airline`** Business Object, select the **Fields** tab, note it has one imported field called **Airline** 
+**`Airline`** Business Object를 클릭, **Fields** 탭 선택, **Airline** 이라는 필드가 추가된 것에 주목합니다.
 
 ![alt text](../resources/images/mob/12.png "Logo Title Text 1")
  
-Click back on the **`Travel Request`** object
+**`Travel Request`** Object 를 다시 클릭합니다.
 
-Add another field: **Airline** that is a **Reference** type field to the **Airline** Business Object. It automatically uses the ID field to accomplish this
+또 다른 필드 추가: **Airline** Business Object 의 **Reference** 타입 필드인 **Airline**. 자동으로 ID 필드를 사용해서 이 작업을 수행합니다.
 
-Select the **Airline** field as the default display field
+**Airline** 필드를 default 표시 필드로 선택하세요.
 
 ![alt text](../resources/images/mob/13.png "Logo Title Text 1") 
 
-Click on the **`Endpoints`** tab.
+**`Endpoints`** 탭을 클릭.
 
 > Note the REST Endpoints that have been exposed to access the Business Objects in your apps
 
