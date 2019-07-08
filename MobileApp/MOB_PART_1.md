@@ -86,26 +86,26 @@ Business Object 의 상세한 내용을 확인하려면 **`TravelRequest`** 클�
  
 **`Travel Request`** Object 를 다시 클릭합니다.
 
-또 다른 필드 추가: **Airline** Business Object 의 **Reference** 타입 필드인 **Airline**. 자동으로 ID 필드를 사용해서 이 작업을 수행합니다.
+다른 필드 추가: **Airline** Business Object 의 **Reference** 타입 필드인 **Airline**. 자동으로 ID 필드를 사용해서 이 작업을 수행합니다.
 
-**Airline** 필드를 default 표시 필드로 선택하세요.
+**Airline** 필드를 Default Display Field로 선택하세요.
 
 ![alt text](../resources/images/mob/13.png "Logo Title Text 1") 
 
 **`Endpoints`** 탭을 클릭.
 
-> Note the REST Endpoints that have been exposed to access the Business Objects in your apps
+> 앱에서 Business Object에 접속하기 위해 노출된 REST Endpoint를 주목하세요.
 
 ![alt text](../resources/images/mob/14.png "Logo Title Text 1") 
 
 
-Click back on the **Airline** object
+다시 **Airline** object를 클릭하세요.
 
-Add a field: **Total Cost**, of type **Number** that is going to show the total cost of air travel expense requests by airline.
+필드 추가: airline의 air travel 청구비용 전체합을 보여줄 **Number** 타입의 **Total Cost**
 
 ![alt text](../resources/images/mob/15.png "Logo Title Text 1") 
 
-With the **Total Cost** field selected, go to the Value Calculation section of the Property Palette and select **`(*) Aggregate from related object data`**.
+**Total Cost** 필드를 선택한 상태에서 Property Palette의 Value Calculation 섹션으로 이동한 뒤 **`(*) Aggregate from related object data`** 를 선택한다.
 
 ![alt text](../resources/images/mob/16.png "Logo Title Text 1") 
 
