@@ -109,31 +109,32 @@ Business Object 의 상세한 내용을 확인하려면 **`TravelRequest`** 클�
 
 ![alt text](../resources/images/mob/16.png "Logo Title Text 1") 
 
-**`+Edit Aggregation`** 버튼 클릭. Object to Aggregate 가 **Travel Request (using airline)** 으로 되어 있는지 확인하세요. Aggregation Function 으로 **`Total`** 을 선택하고 Field to Aggregate 는 **`Cost`** 를 선택합니다.
+**`+ Edit Aggregation`** 버튼 클릭. Object to Aggregate 항목이 **Travel Request (using airline)** 으로 되어 있는지 확인하세요. Aggregation Function 은 **`Total`** 을 선택하고 Field to Aggregate 는 **`Cost`** 를 선택합니다.
 
 **`OK`** 버튼 클릭
 
 ![alt text](../resources/images/mob/17.png "Logo Title Text 1")
 
-Add a field: **Average Cost**, type **Number**, that is going to show the total cost of air travel expense requests by airline
+필드추가: airline Object의 출장경비 중 항공편 요청의 총 비용을 보여주는 **Number** 타입인 **Average Cost**
 
-Again, with the Average Cost field selected, go to the Value Calculation section of the Property Palette and select **`(*) Aggregate from related object data`**
+다시 Average Cost 필드 선택 후 Property Palette 의 Value Calculation 섹션으로 가서 **`(*) Aggregate from related object data`** 를 선택합니다.
 
-From the Travel Request object, select **`Average`** as the function and **`Cost`** as the field to aggregate
+Travel Request object에서 **`Average`** 를 function 으로 선택하고 **`Cost`** 를 합계를 계산할 field로 선택합니다.
 
 ![alt text](../resources/images/mob/18.png "Logo Title Text 1") 
 
 ## 3. Create the Mobile Application 
 
-> In this section you will create a mobile app to enable the travel approval process, using the Business Objects you created earlier.
+> 이번 섹션에서는 이전에 생성한 Business Object를 사용해서 출장 승인 프로세스를 수행할 수 있는 모바일 앱을 생성할 예정입니다.
 
-Click the **`Mobile Apps`** icon in the navigator and click the **`+ Mobile Application`** button (you can also close the open tabs in the editor)
+네비게이터의 **`Mobile Apps`** 아이콘을 클릭후 **`+ Mobile Application`** 버튼을 클릭 (편집기에서 열었던 탭은 닫아도 됨)
 
 ![alt text](../resources/images/mob/19.png "Logo Title Text 1") 
 
-Name the **Mobile Application** **`myTravel`**
+**모바일 어플리케이션** 이름은 **`myTravel`** 으로 정함
 
 Keep the default **Navigation Style (Bottom Bar)** and name two **Navigation Items**: **`Requests and Statistics`** , delete the third navigation item and click the **`>`** button
+Default **Navigation Style** 은 Bottom Bar 로 선택하고 **Navigation Items** 는 Requests 와 Statistics를 입력하고 세번째 Items은 삭제한 뒤 **`>`**	버튼을 클릭합니다.
 
 ![alt text](../resources/images/mob/20.png "Logo Title Text 1")
 
