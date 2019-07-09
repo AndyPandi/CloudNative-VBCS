@@ -137,15 +137,15 @@ Travel Request object에서 **`Average`** 를 function 으로 선택하고 **`Co
 
 ![alt text](../resources/images/mob/20.png "Logo Title Text 1")
 
-Now you can choose a default layout for your home screen. Select **No Content** then the **``Finish``**
+이제 home screen의 default layout을 선택할 수 있습니다. **No Content** 선택 후  **``Finish``** 를 클릭하세요.
 
 ![alt text](../resources/images/mob/21.png "Logo Title Text 1") 
 
-Expand **`mytravel`** in the **Application Navigator**.
+**Application Navigator** 에서 **`mytravel`** 를 펼쳐주세요.
 
-> *VBCS has created a page flow for each of the Navigation Items you specified earlier. It has also created a home screen for each flow and opened the first: requests-start. It is the entry point to your application*.
+> *VBCS는 지금까지 지정한 각 Navigation Items 대한 구성도를 생성했습니다. 또한 각 flow 마다 home screen을 생성했고 첫번째 화면인 request-start가 오픈되었습니다. 이것이 어플리케이션의 시작지점 입니다.*.
 
-Collapse the **Application Navigator** and the **Page Structure** viewer (as necessary) by clicking on the collapse icons 
+필요한 경우 접기 아이콘을 클릭해서 **Application Navigator** 와 **Page Structure** 뷰어를 닫을 수 있습니다.
 
 
 ![alt text](../resources/images/mob/22.png "Logo Title Text 1")
