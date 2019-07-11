@@ -151,19 +151,19 @@ Travel Request object에서 **`Average`** 를 function 으로 선택하고 **`Co
 ![alt text](../resources/images/mob/22.png "Logo Title Text 1")
  
 
-> *Now you are in the **Visual Page Editor**. On the left is the **Component Palette**, the main area is the **Page Editor** and to the right is the **Property Palette**.* 
+> ***Visual Page Editor** 화면구성 입니다. 왼쪽편은 **Component Palette** 이고, 메인영역은 **Page Editor** 그리고 오른쪽은 **Property Palette** 입니다.* 
 
-If the **Property Palette** is not visible click on the **Expand** icon to the right of the **Code** button
+만약 **Property Palette** 가 보이지 않으면 **Code** 버튼의 오른쪽에 위치한 **Expand** 아이콘을 클릭하세요.
 
-> Note that you are in **Live** mode (we’ll come back to that later). Click and view your mobile app in different layout modes as you prefer
+> 현재 **Live** mode 임을 유의하세요 (나중에 다시 설명). 선호하는 대로 다른 레이웃 모드에서 모바일 앱을 클릭해보세요.
 
 ![alt text](../resources/images/mob/23.png "Logo Title Text 1")
  
-Ensure the **Design Tab** is selected. In the Editor, select **`Page Title`** and under Page Title in **Properties** name the page *"Requests"*
+**Design Tab** 이 선택되어 있는지 확인하세요. 에디터에서 **`Page Title`** 선택 후 **Properties** 에서 Page Title을 *"Requests"* 로 입력하세요.
 
 ![alt text](../resources/images/mob/24.png "Logo Title Text 1") 
 
-From the Collection Section of the Component Palette drag a **List View** onto the page 
+Component Palette 의 Collection Section 에서 **List View** 를 페이지 위로 드래그 하세요.
 
 
 ![alt text](../resources/images/mob/25.png "Logo Title Text 1") 
@@ -171,24 +171,24 @@ From the Collection Section of the Component Palette drag a **List View** onto t
 
 ## 4. Bind Data to the Screen
 
-> *In this section you bind the elements on your screen to the data – in this case the **TravelRequest** Business Object. You access and update the data in the underlying table using the REST Endpoints that were created as part of the Business Object when you imported the spreadsheet*.
+> *이 섹션에서는 화면의 요소를 데이터에 바인딩 해봅니다. 이 케이스에서의 데이터는 **TravelRequest** Business Object 를 의미합니다. 엑셀파일에서 데이터를 가져올 때 Business Object의 일부분으로 생성된 REST Endpoints를 사용해서 실제 테이블의 데이터에 접근하고 업데이트 합니다.*.
 
-In the **Property Palette**, note the **Quick Start** tab (the educator icon) is open by default (or else click on the icon). From here you can quickly bind your list view to the data
+**Property Palette** 에서, **Quick Start** 탭(the educator icon)은 기본적으로 오픈된 상태입니다 (만약 그렇지 않다면 아이콘을 클릭하세요) 여기에서 list view 에 빠르게 데이터에 바인딩을 할 수 있습니다.
 
 ![alt text](../resources/images/mob/26.png "Logo Title Text 1") 
 
-Click on **`Add Data`**
+**`Add Data`** 버튼을 클릭하세요.
 
-Select the **TravelRequest** Business Object and Click **`Next`**
+**TravelRequest** Business Object 를 선택한 후 **`Next`** 를 클릭하세요.
 
 ![alt text](../resources/images/mob/27.png "27: This may vary from your environment")
 
 
-Now choose the **List Item** template and click **`Next`**
+이제 **List Item** 템플릿을 선택후 **`Next`** 버튼을 클릭하세요.
 
 ![alt text](../resources/images/mob/28.png "28: This may vary from your environment")
 
-Drag and drop the **Fields** to be displayed on the page: **`Picture, Name, To, Cost and Airline`** into the corresponding Template Fields as shown in the image below
+ 페이지에서 표시될 **Fields** 드래그앤드랍: **`Picture, Name, To, Cost and Airline`** 필드는 아래 이미지에 표시된 Template Fields 로 이동
 
 > Note that for Airline – you want to select the Airline from the referenced **Airline** object – by expanding the **AirlineObject** and the **Items** to use the text item Airline (as shown in the image below)
 
