@@ -242,7 +242,7 @@ Property Inspector에서 **`Events`** 탭을 선택하세요. **`New Event`** �
 
 ![alt text](../resources/images/mob/36.png "Logo Title Text 1")  
 
-> *Now you are in the Visual Action Flow Diagrammer – where you can map the exact event process that you want to happen when the user selects a row in the list.*
+> *이제 Visual Action Flow Diagrammer 입니다. 여기서는 리스트의 특정 Row를 선택했을때 발생하는 정확한 이벤트 프로세스를 매핑할 수 있습니다.*
 
 Drag a Navigate component onto the editor and click **'Select Target'** from the Property Inspector
 
