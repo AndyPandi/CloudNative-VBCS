@@ -190,53 +190,55 @@ Component Palette 의 Collection Section 에서 **List View** 를 페이지 위�
 
  페이지에서 표시될 **Fields** 드래그앤드랍: **`Picture, Name, To, Cost and Airline`** 필드는 아래 이미지에 표시된 Template Fields 로 이동
 
-> Note that for Airline – you want to select the Airline from the referenced **Airline** object – by expanding the **AirlineObject** and the **Items** to use the text item Airline (as shown in the image below)
+> Airline의 경우 A object를 참조하는 Airline 항목을 선택하는 경우  – you want to select the Airline from the referenced **Airline** object – by expanding the **AirlineObject** and the **Items** to use the text item Airline
+
+참조된 airline object에서 airline 항목을 선택해야 하는 경우에는 **AirlineObject** 와 **Items** 항목을 차례로 펼친 후 나타나는 text item인 Airline을 선택하는 것임을 주의한다 (아래 그림 참조)
 
 ![alt text](../resources/images/mob/29.png "29: This may vary from your environment") 
 
-Click **`Next`** and then **`Finish`**
+**`Next`** 버튼 클릭 후 **`Finish`** 버튼 클릭
 
-> Note that the Editor is now showing the live data from the Business Object, even in Design view
+> 현재 선택된 Editor 가 Design 뷰이더라도 화면에는 Business Object의 실제 데이터가 보여집니다.
 
 ![alt text](../resources/images/mob/30.png "Logo Title Text 1") 
 
 ### Add an Edit Page
 
-Select the Quick Start **`Add Edit Page`** from the **Table Property Inspector**
+**Table Property Inspector** 에서 **`Add Edit Page`** 를 선택
 
-Select the **TravelRequest** Business Object as the source data for this edit page and click **`Next`**
+이 편집 페이지의 소스 데이터로 **TravelRequest** Business Object 선택 후 **`Next`** 클릭
 
 ![alt text](../resources/images/mob/31.png "Logo Title Text 1")
 
-Do the same for the Update Endpoint – select the **TravelRequest** Business Object , click **`Next`**
+Update Endpoint도 동일 – **TravelRequest** Business Object 선택 후 **`Next`** 클릭
 
 ![alt text](../resources/images/mob/32.png "Logo Title Text 1")
 
-Select the fields to be displayed on the **Edit Page:** **`picture, name, approved, date1, cost, airline, to1`**. You can reorder the fields once you’ve selected them using drag and drop.
-> Note that you select the airline reference field, not the airlineObject (that would give you the ID)
+**Edit Page** 에서 표시될 필드 선택: **`picture, name, approved, date1, cost, airline, to1`**. 드래그앤 드랍으로 필드들의 순서를 변경할 수 있습니다.
+> 참조필드인 airline 항목을 선택해야함. airlineObject를 선택하지 않게 주의하세요.
  
 ![alt text](../resources/images/mob/33.png "Logo Title Text 1")
 
-Click **`Finish`**
+**`Finish`** 클릭
 
 ### Call the Edit Page from the Requests page
 
-> *Now you set up the call from a record in the Requests page to open the Edit page for that request.*
+> *이제 Requests 페이지의 record에서 Edit page를 호출하기 위한 request를 설정 합니다.*
 
-Expand the **Page Structure**. Select the **List View** component  – or select it in the **Page Editor** directly 
+**Page Structure** 에서 **List View** component 를 선택하거나 **Page Editor** 에서 직접 선택하세요.
 
 ![alt text](../resources/images/mob/34.png "Logo Title Text 1") 
 
-On the General Properties for the List View – set the **`Selection Mode`** property to **Single**.
+List View의 General Properties에서 **`Selection Mode`** 를 **Single** 로 선택하세요.
 
 ![alt text](../resources/images/mob/35.png "Logo Title Text 1") 
 
 
 ### Create And Map An Event
 
-> *Now you create an **Event** that fires each time a single record on the **`Request`** page is selected.*
+> *이제 **`Request`** 페이지에서 각각의 단일 레코드가 선택될때 발생하는 **Event** 를 생성할 것입니다.
 
-Select the **`Events`** tab in the Property Inspector. Click **`New Event`** and select **`Quick Start: selection`**
+Property Inspector에서 **`Events`** 탭을 선택하세요. **`New Event`** 클릭 후 **`Quick Start: selection`** 를 선택하세요.
 
 ![alt text](../resources/images/mob/36.png "Logo Title Text 1")  
 
