@@ -248,7 +248,7 @@ Navigate 컴포넌트를 에디터창으로 드래그한 후 Property Inspector 
 
 ![alt text](../resources/images/mob/37.png "Logo Title Text 1") 
 
-Select Peer Pages to find the edit page you created earlier, and select **requests-edit-travel-request** (or similar if you renamed the edit page)
+이전에 만든 에디터 페이지를 찾으려면 Peer Pages를 선택한 후 **requests-edit-travel-request** 를 선택하세요. (에디트 페이지를 변경한 경우 변경한 이름 선택)
 
 
 **`Select`** 버튼 클릭
@@ -257,53 +257,53 @@ Select Peer Pages to find the edit page you created earlier, and select **reques
 ![alt text](../resources/images/mob/38.png "Logo Title Text 1") 
 
 
-Now click on the **Input Parameters : Assign** link in the **Property Inspector** to assign the selected row ID so its Edit page opens
+이제 **Property Inspector** 의 **Input Parameters > Assign** 를 클릭해서 선택한 row ID의 에디터 페이지가 오픈되도록 합니다.
  
 ![alt text](../resources/images/mob/39.png "Logo Title Text 1")
 
-In the action mapper, under Sources, expand the Action Chain to find the **`Item`** that has been selected. Drag and drop to map that to the **travelRequestId**
+Action mapper의 Sources에서 Action Chain을 확장하여 선택된 **`Item`** 을 찾으세요. 드래그 앤 드랍하여 **travelRequestId**에 매핑하세요.
 
-Click **`Save`**
+**`Save`** 클릭
 
 ![alt text](../resources/images/mob/40.png "Logo Title Text 1") 
 
 
-> You have now created an action that fires when a row is selected – opening the detailed edit page for that row.
+> 이제 특정 row가 선택 됐을때 그 row의 상세 에디트 페이지를 오픈하는 액션을 생성했습니다.
 
 ### Run The Application in a Simulator
 
-> *Now you are ready to run the application*
+> *이제 어플리케이션을 실행할 준비가 다 되었습니다.*
 
-Click the **`Run`** button in the top right menu icons of the window
+윈도우 상단 오른쪽 메뉴 아이콘에서 **`Run`** 버튼 클릭
 
 ![alt text](../resources/images/mob/41.png "Logo Title Text 1")  
 
-Select a row and navigate to the Edit page – select an **Airline** and **Save**, repeat this for a number of requests and update fields as you wish
+행을 선택한 후 에디트 페이지로 이동 - **Airline** 을 선택 및 **Save** , 원하는 대로 여러 요청 및 업데이트 필드에 반복
 
-> *You are running the app in a simulator. There is a section at the end of this HOL that describes how to Build and Install the app on a device, if there is time*
+> *현재 시뮬레이터에서 앱을 실행하고 있습니다. 이 Hands On Lab의 끝에는 디바이스에 앱을 빌드하고 설치하는 방법을 설명하는 섹션이 있습니다.*
 
-View how the mobile app will render for different device types by selecting the mobile device type in the dropdown at the top of the window
+윈도우 상단의 드랍다운에서 모바일 디바이스 유형을 선택하여 모바일 앱이 여러 종류의 디바이스에서 랜더링되는 방법 보기
 
 
 ## 5. Simulate Running the App in the Page Designer
 
-*Running the application in the Page Designer allows you to access the live data while you are in design – so you can test not only the if the pages flow as you want them to, but also that the data and the relationships between the data are as you expect*
+*Page Designer에서 어플리케이션을 실행하면 설계하는 동안 라이브 데이터에 액세스할 수 있으므로 페이지가 원하는 대로 흘러가는지 여부뿐만 아니라 데이터 및 데이터 간의 관계가 예상대로 되었는지 테스트할 수 있다.*
 
-Return to your **Oracle Visual Builder Cloud Service** design-time via the browser tab 
+브라우저 탭을 통해서 **Oracle Visual Builder Cloud Service** 설계 시점으로 돌아감
 
-Click on the **`requests-start`** tab 
+**`requests-start`** 탭을 클릭
 
-Click on the **`Live`** button to move into Live mode
+**`Live`** 버튼을 클릭해서 Live 모드로 돌아감
 
-Select a record and the edit page opens with the live record selected
+레코드를 선택해서 에디트 페이지를 오픈
 
 ![alt text](../resources/images/mob/42.png "Logo Title Text 1")  
 
-Return to Design mode by clicking the **`Design`** button
+**`Design`** 버튼을 클릭해서 Design 모드로 돌아갑니다.
 
 ## 6. Edit the Layout 
 
-> *In this section you use the Page Editor and the Page Structure to work on the UI of the page*
+> *이 섹션에서는 UI페이지의 Page Editor 와 Page Structure를 사용해서 작업합니다.*
 
 In the Edit **TravelRequest** page, collapse the **Property Palette** and zoom the **Page Editor** canvas 
 
