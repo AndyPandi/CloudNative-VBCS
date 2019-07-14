@@ -244,13 +244,14 @@ Property Inspector에서 **`Events`** 탭을 선택하세요. **`New Event`** �
 
 > *이제 Visual Action Flow Diagrammer 입니다. 여기서는 리스트의 특정 Row를 선택했을때 발생하는 정확한 이벤트 프로세스를 매핑할 수 있습니다.*
 
-Drag a Navigate component onto the editor and click **'Select Target'** from the Property Inspector
+Navigate 컴포넌트를 에디터창으로 드래그한 후 Property Inspector 의 **'Select Target'** 버튼을 클릭합니다.
 
 ![alt text](../resources/images/mob/37.png "Logo Title Text 1") 
 
 Select Peer Pages to find the edit page you created earlier, and select **requests-edit-travel-request** (or similar if you renamed the edit page)
 
-Click the **`Select`** button
+
+**`Select`** 버튼 클릭
 
 
 ![alt text](../resources/images/mob/38.png "Logo Title Text 1") 
