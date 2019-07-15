@@ -305,25 +305,28 @@ Action mapper의 Sources에서 Action Chain을 확장하여 선택된 **`Item`**
 
 > *이 섹션에서는 UI페이지의 Page Editor 와 Page Structure를 사용해서 작업합니다.*
 
-In the Edit **TravelRequest** page, collapse the **Property Palette** and zoom the **Page Editor** canvas 
+**TravelRequest** 에디터 페이지에서 **Property Palette** 를 접고 **Page Editor** 캔버스를 확대
 
 ![alt text](../resources/images/mob/43.png "Logo Title Text 1")  
 
-*In the **Page Structure** note that the first element in the page is a **`Flex Container`** that contains the default Form Layout and items you picked when you created the Edit Page*
+***Page Structure** 에서 페이지의 첫번째 요소는 default 레이아웃과 에디트 페이지 생성시 선택한 항목이 포함된 **`Flex Container`** 입니다.*
 
 From the **'Layout'** section of the **Component Palette** drag and drop a new top level **Flex Container** into the **Page Structure** – below the **Mobile Page Template**
 
-> Note that it renames to **Flex Row**
+**Component Palette** 의 **'Layout'** 섹션에서 **Flex Container** 를 선택해 **Page Structure** 의 **Mobile Page Template** 아래의 Top Level로 드래드앤드랍 합니다.
+
+> **Flex Row** 로 이름을 변경
 
 ![alt text](../resources/images/mob/44.png "Logo Title Text 1")  
 
-Drag and drop 3 Flex Containers into the Flex Row (children of)  – using either the Page Structure or directly in the Editor. 
+Page Structure 또는 Editor에서 직접 3개의 Flex Containers 를 Flex Row의 하뤼로 드래그앤드랍 합니다.
 
-> Note – if you need to, use the Back arrow in the top right menu to retrace your steps
+> 참고 - 필요한경우 상단 오른쪽 메뉴의 Back arrow를 사용하여 단계를 다시 확인해보세요.
 
 ![alt text](../resources/images/mob/45.png "Logo Title Text 1")  
 
 From the **'Common'** section of the **Component Palette** drag and drop an **Avatar** into the first **Flex Container**
+**Component Palette** 의 **'Common'** 섹션에서 **Avatar** 를 첫번째 **Flex Container** 로 그래그앤드랍 하세요.
 
 With the Avatar selected, expand the **Property Palette**, select the **`Data Tab`**
 
