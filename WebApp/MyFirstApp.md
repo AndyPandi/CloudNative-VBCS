@@ -3,15 +3,15 @@
 ## Building MyFirstApp
 
 ### Introduction
-The basic components of a Visual Builder Cloud Service application are mobile applications, web applications, service connections, business objects, and processes.
+Visual Builder Cloud Service 어플리케이션의 기본 컴포넌트는 Mobile Applications, Web Applications, Service Connections, Business Objects, Processes 가 있습니다.
 
-The basic building blocks of a mobile or web application are user interface (UI) components, variables, action chains, page flows and page navigation, and data access through REST endpoints.
+Mobile 또는 Web Application의 기본 구성 요소는 User Interface(UI) 컴포넌트, Variables, Action Chains, Page Flows, Page Navigation, REST endpoints를 통한 Data Access가 있습니다.
 
-The building blocks and their interactions can be summarized as follows.
+블록 생성과 그 상호작용들은 다음과 같이 요약할 수 있습니다.
 
-+ **Variables** are the mechanism used to store and manage client state. Every variable has a type and a scope.
++ **Variables** 는 클라이언스 상태를 관리하고 저장하는데 사용되는 메커니즘입니다. 모든 변소는 type과 scope가 있습니다.
 
-+ An **action chain** is composed of a set of one or more individual actions. The action chain is triggered by an event. (For example, a button click can trigger navigation to a page.) Each action represents a single asynchronous unit of work. An action chain can define input parameters and local variables that are available only in the context of that action chain, and can also access application-scoped input parameters and variables.
++ **action chain** 은 하나 이상의 개별 동작으로 구성됩니다. Action chain 은 event에 의해 트리거 됩니다. (예를들어, 버튼클릭시 페이지를 탐색하는 트리거) 각 작용은 단일 비동기 작업단위를 나타냅니다. Action Chain은 context 내에서만 유효한 input 파라메터와 지역변수를 정의할 수 있으며 또한 애플리케이션 범위의 input 파라메터와 지역변수에만 접근할 수 있습니다.
 
 + **Page flows** and page navigation govern the transmission of information from one page to another. Each individual page has a lifecycle, as does an application. Each lifecycle event (entry or exit from a page, for example) can provide a trigger for an action chain.
 
