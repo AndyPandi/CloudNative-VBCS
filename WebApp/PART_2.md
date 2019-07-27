@@ -1,12 +1,12 @@
 # Part 2: User Interface
 
-## Introduction
-In this part of the lab you will be creating a UI front end and bind the data from the BO's to the UI Components. You also build, a Create, an Edit screens and a Delete function.
+## 소개
+이번 실습에서는 front-end UI를 만들고 UI 컴포넌트로 Business Object의 데이터를 bind 할 것 입니다. 그리고 수정 화면과 삭제 기능 또한 구현할 것 입니다.
 
 ### Steps
 ----
-#### 1. Adding Header
-> The next two steps is to get you to the main page of your application
+#### 1. Header 추가
+> 다음 두 단계에서는 이 어플리케이션의 메인페이지를 생성합니다.
 
 ![alt text](../resources/images/ui/29.png) 
 
@@ -14,22 +14,22 @@ In this part of the lab you will be creating a UI front end and bind the data fr
 
 ![alt text](../resources/images/ui/31-new.png)
 
-> Now select and drag and drop the header component from the component palette to your application build screen
+> 이제 컴포넌트 팔레트에서 header 컴포넌트를 어플리케이션 메인화면의 캔버스로 드래그 앤 드랍하세요.
 
 ![alt text](../resources/images/ui/32-new.png)
 
 ![alt text](../resources/images/ui/33-new.png)
 
 ![alt text](../resources/images/ui/34-new.png)
-#### 2. Adding seperator line
-> What we will start with is to place a header and a seperator line onto the main application page.
+#### 2. 구분선 추가
+> header 와 구분선 을 메인 어플리케이션 페이지에 추가 합니다.
 
 ![alt text](../resources/images/ui/35-new.png)
 
 ![alt text](../resources/images/ui/36-new.png)
 
-#### 3. Adding Table
-> Next is to add a Table Component in which we will expose the Employee data in to your main application page. You will be guided on retrieving data from the Employee Business Object and binding it to the UI Component.
+#### 3. Table 추가
+> 다음은 사원 데이터를 표시할 Table 컴포넌트를 어플리케이션 메인페이지에 추가합니다. Employee Business Object 에서 데이터를 검색하고 UI 컴포넌트에 binding 하는 방법을 가이드할 예정이니다.
 
 ![alt text](../resources/images/ui/37-new.png)
 
@@ -51,8 +51,8 @@ In this part of the lab you will be creating a UI front end and bind the data fr
 
 ![alt text](../resources/images/ui/46-new.png)
 
-#### 4. Adjust view
-> Now the Employee Data is presented in a table component, you might want to view the full page view. Instead of zoom in and zoom out each time, we can set the page to `Fit`. The following steps will illustrate that.
+#### 4. view 조정하기
+> 현재 사원 데이터 Table 컴포넌트에 나타나고 있고 이것을 full page view로 볼 수 있도록 하겠습니다. 페이지를 줌인, 줌아웃이 아닌 `Fit`되게 할 수 있습니다. 아래 그림에서 확인할 수 있습니다.
 
 ![alt text](../resources/images/ui/47.png "Logo Title Text 1")
 
