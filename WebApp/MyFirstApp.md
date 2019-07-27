@@ -1,8 +1,8 @@
 # ORACLE Cloud Test Drive: Autonomous Visual Builder Cloud Service
 
-## Building MyFirstApp
+## MyFirstApp 
 
-### Introduction
+### 소개
 Visual Builder Cloud Service 어플리케이션의 기본 컴포넌트는 Mobile Applications, Web Applications, Service Connections, Business Objects, Processes 가 있습니다.
 
 Mobile 또는 Web Application의 기본 구성 요소는 User Interface(UI) 컴포넌트, Variables, Action Chains, Page Flows, Page Navigation, REST endpoints를 통한 Data Access가 있습니다.
