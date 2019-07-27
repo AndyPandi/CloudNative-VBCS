@@ -13,13 +13,13 @@ Mobile 또는 Web Application의 기본 구성 요소는 User Interface(UI) 컴�
 
 + **action chain** 은 하나 이상의 개별 동작으로 구성됩니다. Action chain 은 event에 의해 트리거 됩니다. (예를들어, 버튼클릭시 페이지를 탐색하는 트리거) 각 작용은 단일 비동기 작업단위를 나타냅니다. Action Chain은 context 내에서만 유효한 input 파라메터와 지역변수를 정의할 수 있으며 또한 애플리케이션 범위의 input 파라메터와 지역변수에만 접근할 수 있습니다.
 
-+ **Page flows** and page navigation govern the transmission of information from one page to another. Each individual page has a lifecycle, as does an application. Each lifecycle event (entry or exit from a page, for example) can provide a trigger for an action chain.
++ **Page flows** 와 Page Navigation은 한 페이지에서 다른 페이지로의 전달을 담당합니다. 각 페이지는 애플리케이션과 마찬가지로 라이프사이클을 가지고 있습니다. 각 라이프사이클 event(예. 페이지 접근 또는 아웃)는 Action Chain을 위한 트리거를 제공합니다.
 
-+ A **UI component** encapsulates a unit of user interface through a defined contract – specifically, the Oracle JavaScript Extension Toolkit (JET) components contract. Component properties are bound to variables, and component events trigger action chains.
++ **UI component** user interface 단위를 정의된 contract, 특히 Oracle Javascript Extension Toolkit (JET) 컴포넌트 contract를 통해서 캡슐화합니다.
 
-All data entering a mobile or web application is based on REST. This data can come from custom business objects and from business objects provided by service connections. Actions and variables control how data is sent to and from a REST endpoint in a mobile or web application. A developer can create a type that matches the REST payload and pass the data using a variable of that type.
+모바일 또는 웹 어플리케이션에 입력되는 모든 데이터는 REST 기반입니다. 이 데이터는 custom Business Objects와 Service Connections에서 제공되는 Business Objects에서 얻을 수 있습니다. Actions 와 변수는 모바일, 웹어플리케이션에서 REST endpoint로 데이터를 주고 받는 방법을 제어합니다. 개발자는 REST payload와 일치하는 type을 생성하고 그 타입의 변수를 사용해서 데이터를 전달할 수 있습니다.
 
-The following figure shows the interactions among these building blocks.
+다음은 이러한 building block간의 상호작용을 보여줍니다.
 
 ![alt text](../resources/images/bo/bb-interactions.png "Logo Title Text 1")
 
