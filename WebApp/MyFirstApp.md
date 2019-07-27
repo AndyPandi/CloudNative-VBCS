@@ -7,7 +7,7 @@ Visual Builder Cloud Service 어플리케이션의 기본 컴포넌트는 Mobile
 
 Mobile 또는 Web Application의 기본 구성 요소는 User Interface(UI) 컴포넌트, Variables, Action Chains, Page Flows, Page Navigation, REST endpoints를 통한 Data Access가 있습니다.
 
-블록 생성과 그 상호작용들은 다음과 같이 요약할 수 있습니다.
+Building Block와 각각의 상호작용들은 다음과 같이 요약할 수 있습니다.
 
 + **Variables** 는 클라이언스 상태를 관리하고 저장하는데 사용되는 메커니즘입니다. 모든 변소는 type과 scope가 있습니다.
 
@@ -19,13 +19,13 @@ Mobile 또는 Web Application의 기본 구성 요소는 User Interface(UI) 컴�
 
 모바일 또는 웹 어플리케이션에 입력되는 모든 데이터는 REST 기반입니다. 이 데이터는 custom Business Objects와 Service Connections에서 제공되는 Business Objects에서 얻을 수 있습니다. Actions 와 변수는 모바일, 웹어플리케이션에서 REST endpoint로 데이터를 주고 받는 방법을 제어합니다. 개발자는 REST payload와 일치하는 type을 생성하고 그 타입의 변수를 사용해서 데이터를 전달할 수 있습니다.
 
-다음은 이러한 building block간의 상호작용을 보여줍니다.
+다음은 이러한 Building Block간의 상호작용을 보여줍니다.
 
 ![alt text](../resources/images/bo/bb-interactions.png "Logo Title Text 1")
 
 ## What are you going to build
-In this hands on lab you will be building a Simple HR application that features Employees, Departments and Locations.
-Below a preview of the end result.
+이 실습에서는 사원, 부서, 지역을 관리하는 간단한 HR 웹어플리케이션을 생성할 것입니다.
+아래는 완성한 결과입니다.
 
 ![Finished Application](../resources/images/graph/107-new.png "Finished Application")
 ----
