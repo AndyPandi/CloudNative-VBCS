@@ -31,7 +31,7 @@ Building Block와 각각의 상호작용들은 다음과 같이 요약할 수 �
 ----
 Have fun!
 
-Continue with PART 1
+Part 1 으로 이어집니다..
 
 > [`HOME`](../README.md) | [`PART 1`](PART_1.md) | [`PART 2`](PART_2.md) | [`PART 3`](PART_3.md)
 
