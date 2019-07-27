@@ -1,33 +1,33 @@
-# Part 1: Creating your Business Objects (Data Model)
-The first part on creating this Web Application is to create a data store. This data store will hold the data that will be entered in the application and lookup data that will be used in the application. We will provide sample data that will be imported to reduce time in data entry. The data store in VBCS is decribed as Business Objects. Business Object is an extraction of the underlying database. (in this case Oracle Database Cloud)
+# Part 1: Business Objects 생성 (Data Model)
+이 웹 어플리케이션을 생성하는 첫번째 파트는 Data Store를 생성하는 것입니다. 이 데이터 스토어는 어플리케이션에 입력될 데이터와 어플리케이션에서 사용될 데이터를 보관합니다. 데이터 입력 시간을 줄이기 위해서 샘플 데이터를 제공합니다. 이 VBCS의 Data Store는 Business Objects로 표현합니다. Business Object는 Database를 기반으로 합니다. (이 경우 Oracle Database Cloud)
 
-After this excercise you have build the following Business Object Model.
+이 실습 후 아래와 같은 Business Object 모델을 구축합니다.
 
 ![alt text](../resources/images/bo/BO-new.png)
 
-The section below will take you through the steps of creating the Business Object Model shown above.
+아래 섹션에서는 위에서 보여지는 Business Object 모델을 생성하는 단계를 안내할 것입니다.
 
 ----
 ## Steps:
-1. You will need to login into VBCS with your username and password
+1. username과 password를 사용해서 VBCS에 로그인 합니다.
 
-2. Before we can build our application we will need to create a new project.
+2. 어플리케이션을 구축하기 위해 새로운 project를 생성해야 합니다.
 
 ![alt text](../resources/images/bo/1.png)
 
-3. Fill in the mandatory fields, click `Finish`.
+3. 필수 입력 필드를 채운 뒤 `Finish` 버튼을 클릭합니다.
 
 ![alt text](../resources/images/bo/2.png)
 
-4. After your VBCS builder tool opened, navigate to and click on the `Web Applications` icon on the left menu bar. This will open the Web Application section of VBCS. Now you can click on the `+Web Application` button; 
+4. VBCS 생성 툴이 열리면 왼쪽 메뉴바에 있는 `Web Applications` 아이콘을 클릭하세요. 그러면 VBCS의 Web Application 섹션이 열릴 것입니다. 이제 `+Web Application` 버튼을 클릭하세요.
 
 ![alt text](../resources/images/bo/3.png)
 
-5. You are now asked to provide an `Id` for your web application. Fill in `HR-App` as the Id and click the `Create` button to continue.
+5. 이제 웹 어플리케이션에 대한 ID를 제공하세요. `HR-App`를 ID로 입력하고 `Create` 클릭해 계속 진행합니다.
 ![alt text](../resources/images/bo/4.png)
 
-6. Your application pallete will open and is ready for you to start building your application.
-> Under the hr-app tree you can find the application flows, resources and root pages. Also note that the default application name is `main-start`. This is the starting page of your app.
+6. 어플리케이션 팔레트가 오픈될것이고 이제 어플리케이션을 생성할 준비가 되었습니다.
+> hr-app tree에서 application flows, resources 그리고 root pages를 볼 수 있습니다. default 어플리케이션 이름은 `main-start`임을 기억하세요. 이 부분이 어플리케이션의 시작입니다.
 
 ![alt text](../resources/images/bo/9.png)
 
