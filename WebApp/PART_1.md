@@ -31,9 +31,9 @@
 
 ![alt text](../resources/images/bo/9.png)
 
-7. The next images shows the details of the Business Objects you are going to create including the data. 
+7. 다음 이미지는 앞으로 생성할 Business Objects 의 상세 데이터 입니다.
 
-> You can create Business Objects in various ways either by creating it ussing the VBCS interface, where you manually specify the Business Object name and fields or import one or more BO's using a .csv or excel file. In this lab we will use the import method.
+> Business Objects 는 VBCS 인퍼페이스를 사용해서 생성하거나 직접 특정 Business Object 이름과 필드를 지정하거나 csv 또는 excel 파일을 사용해 하나 이상의 Business Objects를 import 하는 방법으로 생성할 수 있습니다. 이 실습에서는 import 하는 방법을 사용할 것입니다.
 
 ![alt text](../resources/images/bo/5-new.png)
 
@@ -41,40 +41,40 @@
 
 ![alt text](../resources/images/bo/7-new.png)
 
-8. Click the next icon <a href="../resources/materials/Sample-VBCS-DataModel.xlsx">![alt text](../resources/images/bo/8.png "Logo Title Text 1")</a> and click `download` button on the next screen to download the VBCS Data Model file. You will need this file later in this lab.
+8. 다음 아이콘 <a href="../resources/materials/Sample-VBCS-DataModel.xlsx">![alt text](../resources/images/bo/8.png "Logo Title Text 1")</a> 를 클릭한 뒤 다음 화면에서 `download` 버튼을 클릭해서 VBCS Data Model 파일을 다운로드 하세요. 다음 실습을 위해 필요한 파일입니다.
 
 ![alt text](../resources/images/bo/8-A.png)
 
-> Take a look in the excel file and see what data.
+> excel 파일에는 어떤 데이터가 있는지 한번 확인해보세요.
 
-9. Now we have downloaded the Sample VBCS DataModel file, we are ready to start building our BO's. Click on the `Business Objects` icon on the left menu.
+9. 이제 우리는 샘플 VBCS DataModel 파일을 다운로드 했고 Business Object를 생성할 준비가 됐습니다. 왼쪽 메뉴의 `Business Objects` 아이콘을 클릭하세요.
 
 ![alt text](../resources/images/bo/10.png)
 
-10. Click on the `hamburger` menu (step: 0) as illustrated below and choose the `Data Manager` menu item (step: 1).
+10. 아래 그림처럼 `햄버거` 메뉴 를 클릭한 뒤 `Data Manager` 메뉴를 클릭하세요.
 
-> This will open a screen with various choices
+> 이러면 다양한 선택이 있는 화면이 오픈될 것입니다.
 
 ![alt text](../resources/images/bo/11.png)
 
-11. Choose `Import Business Objects`. This will open a dialog window.
+11. `Import Business Objects`를 선택하세요. 그러면 다이얼로그 창이 오픈될 것입니다.
 
 ![alt text](../resources/images/bo/12.png)
 
-12. In this dialog window, drag & drop the excel file into the `blue box`, once the file is totally loaded press next to continue.
-> Import of a Business Object is done in three stages, 1. Upload file, 2. Verification of the `names` of the Business Objects that will be created, 3. Verification of the `Fields` that will be used in the Business Objects.
+12. 이 다이얼로그 창에서 다운받은 엑셀파일을 `blue box`로 드래그앤 드랍하고 파일이 완전히 로드된 후 `next` 버튼을 눌러 다음으로 넘어갑니다.
+> Business Object의 import는 세단계로 진행됩니다. 1. 파일업로드, 2. 생성할 Business Object의 `names` 확인, 3. BUsiness Objects에서 사용될 `Fields` 이름 확인.
 
 ![alt text](../resources/images/bo/13.png)
 
 ![alt text](../resources/images/bo/14.png)
 
-13. You can keep the names as shown, click `Next` to continue.
+13. 보여지는 이름 그대로 두고 `Next` 버튼을 클릭해서 다음으로 진행합니다.
 
 ![alt text](../resources/images/bo/15.png)
 
-14. At this stage we want to reconfigure some of the fields as we would like to create `Relationships` between the tables we are importing. First is the `Department Business Object`, we would like to create a one-to-many relationship between the Department BO and the Location BO.
+14. 이 스테이지에서는 우리가 import 하려는 테이블들의 `Relationships`을 만들기 위해 일부 필드를 재구성 합니다. 첫번째는 `Department Business Object`로, Department BO와 Location BO의 관계를 일대다로 생성할 것입니다.
 
-> Follow the instructions in the illustration.
+> 다음에 있는 그림을 따라 하세요.
 
 ![alt text](../resources/images/bo/16-new.png)
 ![alt text](../resources/images/bo/16A-new.png)
@@ -91,22 +91,22 @@
 
 ![alt text](../resources/images/bo/19-new.png)
 
-15. Now the BO's are created and the data imported in the BO's. Click `Close` button to continue.
+15. 이제 Business Object가 생성되고 그 속으로 데이터가 import 되었습니다. `Close` 버튼을 클릭하세요.
 
 ![alt text](../resources/images/bo/25.png)
 
-16. As a result you will now see that the BO's are created for your application.
+16. 이제 어플리케이션을 위한 Business Object 가 생성된 결과를 볼 수 있습니다.
 
 ![alt text](../resources/images/bo/26.png)
 
-17. To view the model and relationships between the BO's. Click on the hamburger menu as illustrated below and choose `Diagram`.
+17. 생성된 Business Objects 모델 및 관계를 확인합니다. 아래 그림처럼 햄버거 메뉴를 클릭한 후 `Diagram` 메뉴를 클릭합니다.
 ![alt text](../resources/images/bo/27.png)
 
-18. The results. 
-> As a result you can see how the relationship between the BO's are and if you hover and click on the relationship links you can see that you can reconfigure it. Have a try!
+18. 확인결과. 
+> 결과로 Business Objects 의 관계를 볼 수 있습니다. 그리고 관계 선에 마우스를 대고 더블클릭하면 관계를 재구성할 수 있다는 것을 알 수 있습니다. 직접 해보세요!
 
 ![alt text](../resources/images/bo/28-new.png)
 
-We now have completed Part 1, please proceed to Part 2 of this lab.
+이제 우리는 Part 1을 완료했습니다. 이제 이 실습의 Part 2를 따라해보세요.
 
 > [`HOME`](../README.md) | [`PART 1`](PART_1.md) | [`PART 2`](PART_2.md) | [`PART 3`](PART_3.md)
