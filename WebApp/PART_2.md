@@ -76,8 +76,8 @@ Now we have a full view of the table, we most probably want to change the name o
 
 -->
 
-#### 5. Change Picture component in Table
-> Now we have a full view of the table, we most probably want to change the way we present the picture. The following steps will guide you how this can be done.
+#### 5. 테이블의 사진 컴포넌트 변경
+> full 사이즈로 보여지는 현재 테이블에서 사진을 보여주는 방식을 변경해보겠습니다. 다음의 단계를 통해 어떻게 사진을 변경할 수 있는지 설명하겠습니다.
 
 ![alt text](../resources/images/ui/AT-1.png)
 
@@ -97,8 +97,8 @@ Now we have a full view of the table, we most probably want to change the name o
 
 ![alt text](../resources/images/ui/AT-9.png)
 
-#### 6. Adding actions
-> Now you're done with your table, next is adding some actions to the data. The next few steps will guide you on adding a Create Employee function and Edit Employee function. You will notice that VBCS has some nice pre-built quickstarts to help you generating the various pages and linking the navigation.
+#### 6. actions 추가
+> 이제 테이블에 대한 작업은 완료했고 다음은 데이터에 대한 몇가지 action 을 추가하겠습니다. 다음 몇가지 단계에서는 사원생성 및 수정기능을 추가하는 방법을 설명할 것입니다. VBCS에서는 다양한 페이지를 생성하고 네이게이션을 연결하는데 도움이 되는 기능들이 사전에 만들어져 제공됩니다.
 
 ![alt text](../resources/images/ui/55-new.png)
 
@@ -118,8 +118,8 @@ Now we have a full view of the table, we most probably want to change the name o
 
 ![alt text](../resources/images/ui/62-new.png)
 
-#### 7. Adding Create page
-> We have completed creating the `Create Employee` page and we can now test this functionality.
+#### 7. 생성 페이지 추가
+> `Create Employee` 페이지를 완성했고 이제 이 기능을 테스트 해봅니다.
 
 ![alt text](../resources/images/ui/63-new.png)
 
@@ -127,8 +127,8 @@ Now we have a full view of the table, we most probably want to change the name o
 
 ![alt text](../resources/images/ui/65-new.png)
 
-#### 8. Adding Edit page
-> Next section of this lab, we will guide you on how to add a `Edit Employee` function. Before that we need to make sure we are back to out application `main-start` page.
+#### 8. 수정 페이지 추가
+> 이번 실습의 다음 섹션에서는 어떻게 `Edit Employee` 기능을 추가하는지 설명할 것입니다. 그러기 위해 먼저 이 어플리케이션의 `main-start` 페이지로 돌아갑니다.
 
 ![alt text](../resources/images/ui/66-new.png)
 
@@ -154,8 +154,8 @@ Now we have a full view of the table, we most probably want to change the name o
 
 <!-- ![alt text](../resources/images/ui/76.png) -->
 
-#### 9. Adding Delete
-> Before we move to our next section, we have to navigate back to our `main-start` page. We will guide you through a creation of the `Delete Employee` function.
+#### 9. 삭제기능 추가
+> 다음 섹션을 위해 `main-start` 로 돌아갑니다. 이제 `Delete Employee` 기능을 생성하는 방법을 설명하겠습니다.
 
 ![alt text](../resources/images/ui/77-new.png)
 
@@ -165,15 +165,15 @@ Now we have a full view of the table, we most probably want to change the name o
 
 ![alt text](../resources/images/ui/80-new.png)
 
-#### 10. The results
-Now you are ready to test and run your application. Click on the `Play` icon.
+#### 10. 최종화면
+이제 우리는 이 어플리케이션을 테스트 할 준비가 됐습니다. `Play` 아이콘을 클릭합니다.
 
 ![alt text](../resources/images/ui/83.png)
 
-The result of your hard work.
+어플리케이션의 최종화면 입니다.
 
 ![alt text](../resources/images/ui/84-new.png)
 ----
-### You have completed Part 2 of this lab. Proceed to Part 3.
+### 이제 이 실습의 Part 2를 완료했습니다. 계속해서 Part 3을 실습해봅니다.
 
 > [`HOME`](../README.md) | [`PART 1`](PART_1.md) | [`PART 2`](PART_2.md) | [`PART 3`](PART_3.md)
