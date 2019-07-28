@@ -350,100 +350,99 @@ Avatar 를 선택한 후 오른쪽 **Property Palette** 의 **`Data Tab`** 을 �
 
 ![alt text](../resources/images/mob/50.png "Logo Title Text 1")  
 
-From the **Component Palette** drag another **Flex Container** into the bottom of that existing Flex Container, as show in the image below. Alternatively, drag it directly into the Page Structure (you can re-order elements by dragging them within the Page Structure)
+아래 그림과 같이 **Component Palette** 에서 또 다른 **Flex Container** 를 기존의 **Flex Container** 하단으로 드래그하세요. 또는 Page Structure로 직접 드래그하세요.(Page Structure 에서 드래그해서 항목들을 재정렬할 수 있습니다.)
 
-Whichever method you choose, the **Structure Pane** should look like this – one **Flex Container** that contains both the **Form Layout** and a new **Flex Container**
+어느 방법을 선택하든 **Structure Pane** 는 아래와 같이 **Flex Container** 아래 **Form Layout** 과 신규 **Flex Container** 가 존재하는 구조로 되어야 합니다.
 
 ![alt text](../resources/images/mob/51.png "Logo Title Text 1") 
 
-With the new **Flex Container** selected, add an **Image** component into it from the **'Common'** section of the **'Component Palette'**
+신규 **Flex Container** 선택 후 **'Component Palette'** 의 **'Common'** 섹션에 있는 **Image** 컴포넌트를 추가하세요.
 
-Now add a **Form Layout** below the **Image**, use the **Page Structure** directly to move components around
+이제 **Image** 아래 **Form Layout** 가 추가하고 **Page Structure** 를 사용해서 구성 요소를 이동하세요.
 
 ![alt text](../resources/images/mob/52.png "Logo Title Text 1")
  
+**Image** 를 선택해서 **Width** 를 **250** 으로 **Height** 를 **150** 으로 변경하세요.
 
-Select the **Image** and change the **Width** property to **250** and the **Height** property to **150**
-
-Select the **Form Layout** and add 2 **Input Text** fields – label them **Country** and **Capital**. Add a Number Input field and label it **Population**. In the **Property Palette for each of these items, set them to **Readonly**
+**Form Layout** 을 선택 후 2개의 **Input Text** 필드를 추가하세요. 각각은 **Country** 와 **Capital** 으로 설정합니다. 신규 Number Input 필드를 추가하고 이름을 **Population** 로 정합니다. 이들 모두 **Property Palette** 에서 **Readonly** 로 설정해주세요.
 
 ![alt text](../resources/images/mob/53.png "Logo Title Text 1") 
 
-> *In the next section you are going to populate these new fields from an external REST service*
+> *다음 섹션에서는 외부 REST 서비스를 통해 이 새 필드들을 채울것입니다.*
 
 
-## Call an External REST Service
+## 외부 REST 서비스 호출
 
-> *Now you are going to call an external Rest Service from this page to provide some additional information about the country to be visited*
+> *이제 현재 페이지에서 방문할 국가에 대한 몇가지 추가정보를 제공하기 위해 외부 REST 서비스를 호출할 것입니다.*
 
-Expand the **Application Navigator** and open **Service Connections** 
+좌측의 **Application Navigator** 를 펼치고 **Service Connections** 를 클릭합니다. 
 
 ![alt text](../resources/images/mob/54.png "Logo Title Text 1") 
 
-Click on **+ Service Connection** to create a new connection
+신규 접속을 생성하기 위해 **+ Service Connection** 를 클릭합니다.
 
-Click **Define by Endpoint**
+**Define by Endpoint** 선택
 
-In URL add https://restcountries.eu/rest/v2/alpha/{code}
+URL 항목에 https://restcountries.eu/rest/v2/alpha/{code} 를 입력합니다.
 
-In **Action Hint** select **Get One**
+**Action Hint** 는 **Get One** 을 선택합니다.
 
 ![alt text](../resources/images/mob/55.png "Logo Title Text 1") 
 
-*This is the REST service you will call. The service requires a parameter (country code) and it will return data about that country*
+*이것은 앞으로 호출할 REST 서비스 입니다. 이 서비스는 국가코드를 파라메터로 요청받고 그 국가의 정보를 리턴합니다.*
 
-Click **`Next`**
+**`Next`** 버틀 클릭
 
-Under the **Service** tab, name the service **GetCountry**
+**Service** 탭에서 service 이름을 **GetCountry** 로 입력합니다.
 
-Under the **Test** tab, select **URL Parameters** and add a value of **US** 
+**Test** 탭에서 **URL Parameters** 에서 value 값을 **US** 로 입력합니다.
 
-Click **Send** to test the service and check that the correct country information is returned 
+**Send** 버튼을 클릭해서 해당 서비스를 테스트 하고 해당 국가의 정보가 정상적으로 리턴되는지 체크합니다.
 
-Try this again with different country codes such as UK, DE, FR, BR, JP
+UK, DE, FR, BR, JP 와 같은 다른 국가코드도 입력해서 테스트 해봅니다.
 
-Click **Copy to Response Body**
+**Copy to Response Body** 버튼을 클릭합니다.
 
-Click **Response**, this shows the format of the response that you copied from the **Test** tab that will be returned by the **GetCountry** service
+**Response** 탭을 클릭하면 **Test** 탭에서 수행한 **GetCountry** 의 리턴값 양식을 Example 항목에서 볼 수 있습니다. 
 
 ![alt text](../resources/images/mob/56.png "Logo Title Text 1") 
  
-Click **Create** to create the service. Visual Builder creates calls allowing you to call the service and access the data returned from within your application pages
+**Create** 버튼을 클릭해서 서비스를 생성합니다. Visual BUilder 내부에 어플리케이션에서 호출하고 리턴된 데이터에 접근할 수 있는 서비스가 생성됩니다.
 
 
-### Create a Variable Based on the Service
+### Service 기반의 변수 생성
 
 
-> *In order to use the data returned in the REST Service call, you create a Type based on the format of the data returned. Then you create a variable based on that Type to use in your pages.*
+> *REST 서비스에서 리턴된 데이터를 사용하기 위해서는 리턴된 데이터의 포멧 기반의 Type 을 생성해야 합니다. 그리고나서 해당 페이지에서 사용되는 Type에 기반한 변수를 생성합니다.*
 
-Click on **`Variables`** icon of the Edit page, and select the **Types** tab
+에디트 페이지의 테두리에 있는 **`Variables`** 아이콘을 클릭한 뒤 **Types** 탭을 선택하세요.
 
 ![alt text](../resources/images/mob/57.png "Logo Title Text 1") 
 
-Click on the **`+ Type`** dropdown and select From **Endpoint**
+**`+ Type`** 드랍다운 버튼을 클릭한 뒤 **From Endpoint** 를 선택합니다.
 
-Expand **Service Connections**, **`GetCountry`** and select **`GET`**
+**Service Connections** 과 **`GetCountry`** 을 펼쳐서 **`GET`** 을 선택합니다.
 
 ![alt text](../resources/images/mob/58.png "Logo Title Text 1") 
 
-Click **`Next`**
+**`Next`** 클릭
 
-Call the **Type** **`CountryType`** and check the **Response**checkbox to select all the attributes returned by the service
+**Define Type** 이름을 **`CountryType`** 로 입력하고 **Response** 왼쪽의 체크박스를 선택해 해당 서비스에서 리턴되는 모든 속성들을 다 체크합니다.
 
-Click **`Finish`**
+**`Finish`** 버튼 클릭
 
 ![alt text](../resources/images/mob/59.png "Logo Title Text 1") 
 
 
-Click on the **`Variables`** Tab to create a **Variable** based on the **CountryType**
+**`Variables`** 탭을 클릭해서 **CountryType** 항목에 기반한 **Variable** 를 생성합니다.
 
-Click **`+ Variable`**
+**`+ Variable`** 클릭
 
 ![alt text](../resources/images/mob/60.png "Logo Title Text 1") 
 
-Give the variable the ID **CountryVar** and select the **CountryType** as the type
+ID는 **CountryVar** 로 입력하고 type 으로는 **CountryType** 를 선택합니다.
 
-Click **`Create`**
+**`Create`** 버튼 클릭
 
 ![alt text](../resources/images/mob/61.png "Logo Title Text 1") 
 
@@ -451,98 +450,98 @@ Click **`Create`**
 
 ### Connect the Page Fields to the Variable
 
-> *Now you are ready to connect the fields you’ve defined in your page with the variable you have created***
+> *이제 페이지에서 정의한 필드를 생성한 변수와 연결한 준비가 되었습니다.*
 
-Return to the **Page Designer**
+**Page Designer** 로 돌아갑니다.
 
-Select the **`Country`** field in the **Page Structure**
+**Page Structure** 에서 **`Country`** 필드를 선택하세요.
 
-In the **Property Palette**, select the **Data** tab
+**Property Palette** 에서 **Data** 탭을 선택하세요.
 
-Open the **Expression Editor** and select the **`name`** field from the **`CountryVar`** variable
+**Expression Editor** 을 열어서 **`CountryVar`** 변수의 **`name`** 필드를 선택합니다.
 
 ![alt text](../resources/images/mob/62.png "Logo Title Text 1") 
 
-Repeat for the Capital, Population and Flag fields
+Capital, Population, Flag 필드에도 이와같이 수행합니다.
 
 
 ## 7. Use an Event to Call the REST Service from the Page
 
 
-> *Finally you are ready to call the REST Service from the page – to do that, in this example, you will create an event that calls the REST service when the To field is selected*
+> *마침내 페이지에서 REST 서비스를 호출할 준비가 되었습니다. 이 예제에서는 특정 필드값이 입력됐을 REST 서비스를 호출하는 이벤트를 생성할 예정입니다.*
 
-Select the **`To`** field, in the Property Palette go to the **Events** tab
+Property Palette에서 **`To`** 필드를 선택한 후 **Events** 탭으로 이동하세요.
 
 ![alt text](../resources/images/mob/63.png "Logo Title Text 1")
 
 
-Click on the **New Event** dropdown and select **Quick Start: ‘value’**
+**New Event** 드랍다운 버튼 클릭후 **Quick Start: ‘value’** 를 선택합니다.
 
-Now you are in the **Actions Visual Flow Editor** 
+이제 **Actions Visual Flow Editor** 화면이 나타납니다.
 
-From **Actions** palette, drag **Call Rest Endpoint** onto the ‘+’ as the first action 
+**Actions** 팔레트에서 **Call Rest Endpoint** 항목을 ‘+’ 위로 드래그 합니다.
 
 ![alt text](../resources/images/mob/64.png "Logo Title Text 1")  
 
-Click **`Select Endpoint`** 
+우측의 **`Select Endpoint`** 를 클릭합니다.
 
-Expand **Service Connections** -  **GetCountry** and select **Get**
+**Service Connections** , **GetCountry** 를 펼쳐서 **Get** 을 선택합니다.
 
 ![alt text](../resources/images/mob/65.png "Logo Title Text 1") 
 
-Click **`Select`** 
+**`Select`** 버튼클릭
 
-In the **Property Palette** name the ID **CallCountryService**
+우측의 **Property Palette** 에서 ID를 **CallCountryService** 로 입력합니다.
 
 
-### Map the Input Parameter 
+### Input Parameter 매핑
 
-*The REST service needs the country parameter to be passed to it. You define this by mapping the ‘To’ field in your page – the country code – to the REST service call*
+*REST 서비스는 country 파라메터가 필요합니다. 이를 위해 REST 서비스 호출시 해당 페이지의 country code 인 ‘To’ 필드를 파라메터로 매핑합니다.*
 
-Under **Input Parameter** click **`Assign`** 
+우측의 **Input Parameter** 항목의 **`Assign`** 를 클릭합니다.
  
 ![alt text](../resources/images/mob/66.png "Logo Title Text 1")
 
-Under **Sources**, expand **Page – travelRequestRecord** and drag the **`to1`** value across to the **Target** **`code`** to map the page value to the required parameter in the Service
+**Sources** 부분에서 **Page > travelRequestRecord** 에 있는 **`to1`** 값을 해당 서비스에서 요구되는 **Target** 쪽의 **`code`** 항목으로 연결합니다.
 
 ![alt text](../resources/images/mob/67.png "Logo Title Text 1") 
 
-Click **`Save`**
+**`Save`** 버튼 클릭
 
 
-### Assign Return to Page Variable
+### 리턴값을 페이지 변수에 할당하기
 
-> *Now you map the data returned by the call to the REST Service to the variable based on the response data format*
+> *이제 REST 서비스를 호출한 리턴값을 응답데이터 포멧에 맞추어 페이지의 변수에 매핑합니다.*
 
-Drag and drop an **`Assign Variable`** action as the next step in the flow
+**`Assign Variable`** action 을 이 흐름의 다음 스텝위에 드래그 앤 드랍 합니다.
 
 ![alt text](../resources/images/mob/68.png "Logo Title Text 1")
  
 
-In the **Property Palette**, click **`Assign`** link 
+**Property Palette** 에서 Variables 의 **`Assign`** 링크를 클릭합니다.
 
-Drag and drop from **Results – CallCountryService – body** to **Page – CountryVar** to map the service return into the page variable
+Sources 쪽의 **Results – CallCountryService – body** 항목을 Target 쪽의 **Page – CountryVar** 항목으로 연결합니다.
 
 ![alt text](../resources/images/mob/69.png "Logo Title Text 1") 
 
-Click **`Save`** to return to the Page Editor
+**`Save`** 버튼을 클릭해 페이지 에디터 화면으로 돌아갑니다.
 
-### You’ve finished!
+### 완료!
 
-> *You’ve set up the call to the GetCountry REST Service that you defined earlier using the To field in the page. You passed the field to that service as a parameter. You’ve created a Variable of a Type based on the data format that is returned by the service.  You populated the variable with the returned data, you mapped the variable values to the fields on the page*
-
-
-## 8. Run the Completed Application
+> *이제 페이지에서 정의한 GetCountry REST 서비스에 대한 호출 설정을 완료했습니다. 해당 서비스에 파라메터를 전달했습니다. REST 서비스에서 리턴되는 데이터 형식을 기반으로 한 변수를 생성했습니다. 페이지의 필드에 변수값으로 매핑한 리턴데이터로 변수값을 채웁니다.*
 
 
-Click **`Run`** to run the application
-
-Select a row and click to open the **`Edit TravelRequest`** page
+## 8. 완성된 어플리케이션 실행
 
 
-Change the destination to another country (ISO code) and ensure that the country field and data update
+**`Run`** 버튼을 클릭해서 어플리케이션을 실행합니다.
 
-### Proceed to PART 2 of this HOL
+특정 Row를 클릭해 **`Edit TravelRequest`** 페이지를 오픈합니다.
+
+
+목적지 국가를 다른 국가(ISO코드)로 변경해서 국가 필드의 데이터가 업데이트 되는지 확인해봅니다.
+
+### 이 실습의 Part 2 를 수행하세요.
 
 ---
 > [`HOME`](../README.md) | [`PART 1`](README.md) | [`PART 2`](MOB_PART_2.md) | [`EXTRA`](MOB_EXTRA_1.md) | [`Connecting DevCS`](../DevCS/README.md)
