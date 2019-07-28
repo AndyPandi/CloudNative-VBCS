@@ -1,82 +1,80 @@
 # 9. Create Visualizations of Data
 
-*In this section you will add some visual components to the Statistics tab that you created at the start of this lab*
+*이번 섹션에서는 실습의 시작에서 생성한 Statistics 탭에 몇가지 비주얼 컴포넌트들을 추가할것입니다.*
 
-Expand the main **Application Navigator** and expand the mobile application **myTravel** that you are working on
+메인 **Application Navigator** 에서 모바일 어플리케이션 **myTravel** 을 펼칩니다.
 
-Under flows are the **requests** flow you have been working on and the **statistics** flow – with a default page – click **`statistics-start`** to open it in the **Visual Editor**
+우리가 작업한 **requests** flows 아래에 있는 **statistics** flow의 default 페이지인 **`statistics-start`** 를 클릭해서 **Visual Editor** 를 오픈합니다.
 
 ![alt text](../resources/images/mob/70.png "Logo Title Text 1") 
 
 ### Add Data Visualizations to a Page
 
-Drag a **Pie Chart** from the **Component Navigator** onto the page
+**Component Navigator** 에서 **Pie Chart** 를 페이지위로 드래그합니다.
 
 ![alt text](../resources/images/mob/71.png "Logo Title Text 1") 
 
-Click **Add Data**
+오른쪽의 **Add Data** 클릭 합니다.
 
-Choose the **Airline Business Object** and click **Next**
+**Airline Business Object** 선택 후 **Next** 버튼을 클릭 합니다.
 
 ![alt text](../resources/images/mob/72.png "Logo Title Text 1") 
 
-Drag **totalCost** into the **Slice Values**
+**totalCost** 를 **Slice Values** 항목으로 드래그 합니다.
 
-Drag **airline** into the **Slice Colors**
+**airline** 를 **Slice Colors** 항목으로 드래그 합니다.
 
 ![alt text](../resources/images/mob/73.png "Logo Title Text 1") 
 
-Click **Next**, **Finish**
+**Next** , **Finish** 버튼을 클릭 합니다.
 
-Data from the Airline business object is immediately rendered on the chart
+Airline Business Object 의 데이터가 차트위에 즉시 그려집니다.
 
-In the Property Palette for the chart, change the **animation-on-display** to **zoom**
+오른쪽에 있는 차트의 Property Palette 에서 **animation-on-display** 항목의 값을 **zoom** 으로 변경합니다.
 
-With the **Flex Container** holding the Pie Chart selected, drag a **Scatter Chart** onto the Page (Hint: you may wish to use the Page Structure to insert the chart)
+**Flex Container** 를 페이지 위에 추가한 뒤 **Scatter Chart** 를 그 뒤에 드래그 합니다.
 
-Select the **'Quick Start'** icon if not currently high-lighted.
-
-Click **Add Data**
+**Add Data** 를 클릭합니다.
 
 ![alt text](../resources/images/mob/74.png "Logo Title Text 1") 
 
-Select the **'Airline'** Business Object
+**'Airline'** Business Object 를 선택 후 **Next** 버튼을 클릭합니다.
 
-Drag **totalCost** onto the **x Axis**
+**totalCost** 필드를 **x Axis** 위로 드래그 합니다.
 
-Drag **averageCost** onto the **y Axis**
+**averageCost** 필드를 **y Axis** 위로 드래그 합니다.
 
-Drag **airline** onto **Marker Colors**
+**airline** 필드를 **Marker Colors** 위로 드래그 합니다.
 
-Click **Next**, **Finish**
+**Next**, **Finish** 버튼을 클릭합니다.
 
  
 ![alt text](../resources/images/mob/75.png "Logo Title Text 1")
 
-In the Properties for the **Page Template**, edit theA **Page Title** to read **Airline Statistics**
+**Page Template** 의 Properties 에서 **Page Title** 을 **Airline Statistics** 로 입력합니다.
 
-Drag a **Heading** item into each of the containers for the charts and name them:
+각 차트의 상단에 **Heading** 를 드래그 하고 이름을 입력합니다.
 
-**Pie Chart** – **Total Spend**
+**Pie Chart** : **Total Spend**
 
-**Scatter Chart** – **Cost Analysis**
+**Scatter Chart** : **Cost Analysis**
 
-Experiment with the **Animate on Display** and **Animate on Data Change** properties of each chart
+각 차트의 **Animate on Display** 와 **Animate on Data Change** 속성을 테스트 해봅니다.
  
 ![alt text](../resources/images/mob/76.png "Logo Title Text 1")
 
-Click on the **Code** tab, see that you can edit all the elements in your page from here if you prefer – for instance, find the **legend.title="Airline"** for one of the charts and edit it to **legend.title="Airline Spend"**
+**Code** 탭을 클릭하면 원하는 경우 해당 페이지의 모든 요소들을 수정할 수 있습니다. 예를들어 **legend.title="Airline"** 를 찾아서 **legend.title="Airline"** 로 변경해보세요.
 
 ![alt text](../resources/images/mob/77.png "Logo Title Text 1") 
 
 
-## 10. Run The Application
+## 10. 어플리케이션 실행
 
-Finally **Run** the application again in the mobile simulator and move between the pages, update data and review your animations. Click back to the Visual Builder and make changes to those properties and refresh the simulator browser tab to see the changes.
+마지막으로 다시 어플리케이션을 모바일 시뮬레이터에서 **Run** 하고 페이지를 이동해보고 데이터 업데이트 및 애니메이션을 확인해봅니다. Visual Builder로 돌아가 해당 속성을 변경하고 시뮬레이터 브자우저 탭을 새로고침해서 변경내용을 확인해봅니다.
 
-*This concludes the main Hands-On-lab. Congratulations, you have created your first mobile application complete with Business Objects, a REST Service call and visualizations – all done in the Visual Builder Cloud Service primarily declaratively, but with access to the code if you prefer to work at the code level.*
+*이로서 이번 실습이 마무리 되었습니다. 축하합니다. Business Objects, REST 서비스 호출 및 시각화를 갖춘 첫번째 모바일 어플리케이션을 생성했습니다.*
 
-### If you have extra time proceed to EXTRA
+### 여유가 된다면 EXTRA도 따라해보세요.
 
 ---
 > [`HOME`](../README.md) | [`PART 1`](README.md) | [`PART 2`](MOB_PART_2.md) | [`EXTRA`](MOB_EXTRA_1.md) | [`Connecting DevCS`](../DevCS/README.md)
