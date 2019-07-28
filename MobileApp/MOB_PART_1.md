@@ -541,7 +541,8 @@ Sources 쪽의 **Results – CallCountryService – body** 항목을 Target 쪽�
 
 목적지 국가를 다른 국가(ISO코드)로 변경해서 국가 필드의 데이터가 업데이트 되는지 확인해봅니다.
 
-### 이 실습의 Part 2 를 수행하세요.
+
+### 이 실습의 Part 2 를 .
 
 ---
 > [`HOME`](../README.md) | [`PART 1`](README.md) | [`PART 2`](MOB_PART_2.md) | [`EXTRA`](MOB_EXTRA_1.md) | [`Connecting DevCS`](../DevCS/README.md)
