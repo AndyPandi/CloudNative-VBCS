@@ -283,7 +283,7 @@ Action mapper의 Sources에서 Action Chain을 확장하여 선택된 **`Item`**
 윈도우 상단의 드랍다운 버튼에서 모바일 디바이스 유형을 선택하여 모바일 앱이 여러 종류의 디바이스에서 랜더링 가능하다는 것도 확인해보세요.
 
 
-## 5. Page Designer 에서 어플리케이션 시뮬레이트 실행
+## 5. Page Designer 에서 어플리케이션 시뮬레이터 실행
 
 *Page Designer에서 어플리케이션을 실행하면 설계하는 동안 라이브 데이터에 액세스할 수 있으므로 페이지가 원하는 대로 흘러가는지 여부뿐만 아니라 데이터 및 데이터 간의 관계가 예상대로 되었는지 테스트할 수 있습니다.*
 
@@ -310,9 +310,7 @@ Action mapper의 Sources에서 Action Chain을 확장하여 선택된 **`Item`**
 
 ***Page Structure** 에서 페이지의 첫번째 요소는 default 레이아웃과 에디트 페이지 생성시 선택한 항목이 포함된 **`Flex Container`** 입니다.*
 
-From the **'Layout'** section of the **Component Palette** drag and drop a new top level **Flex Container** into the **Page Structure** – below the **Mobile Page Template**
-
-**Component Palette** 의 **'Layout'** 섹션에서 **Flex Container** 를 선택해 **Page Structure** 의 **Mobile Page Template** 아래의 Top Level로 드래드앤드랍 합니다.
+**Component Palette** 의 **'Layout'** 섹션에서 **Flex Container** 를 선택해 **Page Structure** 의 **Mobile Page Template** 아래의 Top Level로 드래드 앤 드랍 합니다.
 
 > **Flex Row** 로 이름을 변경
 
@@ -324,32 +322,31 @@ Page Structure 또는 Editor에서 직접 3개의 Flex Containers 를 Flex Row�
 
 ![alt text](../resources/images/mob/45.png "Logo Title Text 1")  
 
-From the **'Common'** section of the **Component Palette** drag and drop an **Avatar** into the first **Flex Container**
-**Component Palette** 의 **'Common'** 섹션에서 **Avatar** 를 첫번째 **Flex Container** 로 그래그앤드랍 하세요.
+**Component Palette** 의 **'Common'** 섹션에서 **Avatar** 를 첫번째 **Flex Container** 로 그래그 앤 드랍 하세요.
 
-With the Avatar selected, expand the **Property Palette**, select the **`Data Tab`**
+Avatar 를 선택한 후 오른쪽 **Property Palette** 의 **`Data Tab`** 을 선택하세요.
 
-Now you are going to bind data to this avatar UI element 
+이제 Avatar UI 항목에 데이터를 바인딩 할 것입니다. 
 
-Click the dropdown arrow above the **Src** box
+**Src** 박스위의 드랍다운 화살표를 클릭하세요.
 
 ![alt text](../resources/images/mob/46.png "Logo Title Text 1")  
 
-The variables available for this page are presented to you. From the **travelRequestRecord** select **picture**. This is a URL to an image of the selected person record
+이 페이지에서 사용가능한 변수들이 보여집니다. **travelRequestRecord** 의 **picture** 를 선택하세요. 이것은 선택한 레코드의 이미지 URL 입니다.
 
 ![alt text](../resources/images/mob/47.png "Logo Title Text 1")  
 
-In the **Page Editor** drag the **`Name`** below the Avatar. Note – the name field, not the label
+**Page Editor** 에서 **Name** 항목을 Avatar 아래로 드래그 앤 드랍으로 이동합니다. label 필드가 아닌 name 필드임을 유의합니다.
 
 ![alt text](../resources/images/mob/48.png "Logo Title Text 1")  
 
-Now select and delete the **Picture** URL to remove that default text field
+이제 default 텍스트 필드의 **Picture** URL 항목을 선택 후 삭제 하세요.
 
-Drag the **`Approved`** field into the right-hand **Flex Container** 
+**`Approved`** 필드를 오른쪽 **Flex Container** 으로 이동 하세요. 
 
 ![alt text](../resources/images/mob/49.png "Logo Title Text 1")  
 
-In the **Page Structure**, note that by default, there is a **Flex Container** surrounding the **Form Layout**. Select that **Flex Container**
+**Page Structure** 에서는 **Flex Container** 기본적으로 **Form Layout** 를 포함하고 있습니다. **Flex Container** 를 선택하세요.
 
 ![alt text](../resources/images/mob/50.png "Logo Title Text 1")  
 
